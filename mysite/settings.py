@@ -25,7 +25,7 @@ SECRET_KEY = 'r6_r**_@q)2v@*6evgj%e7s9ld=u$mb(ow^vygx+n1ra)p8xev'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['izameteo.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',    
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
